@@ -1,0 +1,19 @@
+Done processing PressureTeam.cpp
+Total errors found: 0
+main.cpp:7:  Include the directory when naming .h files  [build/include] [4]
+main.cpp:10:  Found C++ system header after other header. Should be: main.h, c system, c++ system, other.  [build/include_order] [4]
+main.cpp:47:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+main.cpp:54:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+main.cpp:57:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing main.cpp
+Total errors found: 5
+Done processing PowerTeam.cpp
+Total errors found: 0
+PowerTeam.h:13:  #ifndef header guard has wrong style, please use: DESKTOP_C_A_POWERTEAM_H_  [build/header_guard] [5]
+PowerTeam.h:34:  #endif line should be "#endif  // DESKTOP_C_A_POWERTEAM_H_"  [build/header_guard] [5]
+Done processing PowerTeam.h
+Total errors found: 2
+PressureTeam.h:13:  #ifndef header guard has wrong style, please use: DESKTOP_C_A_PRESSURETEAM_H_  [build/header_guard] [5]
+PressureTeam.h:34:  #endif line should be "#endif  // DESKTOP_C_A_PRESSURETEAM_H_"  [build/header_guard] [5]
+Done processing PressureTeam.h
+Total errors found: 2
